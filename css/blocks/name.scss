@@ -1,0 +1,10 @@
+.name {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+
+  @include phones {
+    display: flex;
+    margin-bottom: 15px;
+  }
+}

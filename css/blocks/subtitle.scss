@@ -1,0 +1,46 @@
+.subtitle {
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.subtitle--occ {
+  color: $orange;
+  -webkit-text-stroke-width: .8px;
+  -webkit-text-stroke-color: #252A32;
+  margin-bottom: 20px;
+  font-size: 36px;
+  letter-spacing: 2px;
+  @include tablets {
+    font-size: 31px;
+    margin-bottom: 15px;
+  }
+  @include phones {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+.subtitle__img  {
+  margin-right: 10px;
+  transition: .3s;
+  stroke: currentColor;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    stroke: $orange;
+    text-shadow: 1px -5px 5px rgba(78, 78, 78, .4), 0 0 1em;
+    transition: .3s;
+  }
+  & svg {
+    width: 30px;
+    height: 30px;
+  }
+  &--myself {
+    & svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

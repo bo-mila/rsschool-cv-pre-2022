@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  width: 100%;
+  background-color: #E5E5E5;
+  color: #252A32;
+  @include phones {
+    flex-direction: column;
+  }
+}
+.main__asside {
+  display: flex;
+  width: 32%;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  background-color: #252A32;
+  padding: 30px 20px 30px;
+  color: #F6F9FE;
+  @include tablets {
+    padding: 20px 8px;
+  }
+  @include phones {
+    width: 100%;
+    padding: 5px 5px;
+  }
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 30px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  @include tablets {
+    padding: 20px 14px 20px;
+  }
+  & h1, h2 {
+    @include phones {
+      display: none;
+    }
+  }
+}

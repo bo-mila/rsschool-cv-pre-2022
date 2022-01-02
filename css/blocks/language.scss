@@ -1,0 +1,45 @@
+.language {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.language__title {
+  width: 100%;
+  color: $subtitle;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  @include tablets {
+    font-size: 22px;
+  }
+  @include phones {
+    font-size: 14px;
+
+  }
+}
+.language__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+.language__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include tablets {
+    font-size: 16px;
+  }
+  @include phones {
+    font-size: 12px;
+    
+  }
+}

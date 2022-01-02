@@ -1,0 +1,15 @@
+.title {
+  font-weight: 700;
+  font-size: 52px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  color: #252A32;
+  @include tablets {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  @include phones {
+    color: #F6F9FE;
+    font-size: 31px;
+  }
+}

@@ -1,0 +1,48 @@
+.myself {
+  position: relative;
+  width: 100%;
+  padding: 15px 0px 0px;
+  margin-bottom: 20px;
+}
+.myself::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #252A32;
+  opacity: .3;
+}
+
+.myself__title span {
+  font-size: 31px;
+  cursor: pointer;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  @include tablets {
+    font-size: 26px;
+  }
+  &:nth-child(8) {
+    margin-right: 8px;
+  }
+  &:nth-child(13) {
+    margin-right: 8px;
+  }
+  &:hover {
+    color: $orange;
+    font-size: 28px;
+    text-shadow: 1px -5px 5px rgba(78, 78, 78, .4), 0 0 1em;
+    transition: .3s;
+  }
+}
+.myself__desc {
+  width: 90%;
+}
+.myself p {
+  line-height: 1.6;
+  @include tablets {
+    font-size: 16px;
+  }
+}

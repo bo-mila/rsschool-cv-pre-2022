@@ -1,0 +1,59 @@
+.skills {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+  margin-bottom: 100px;
+  @include phones {
+    margin-bottom: 10px;
+  }
+}
+.skills__title {
+  width: 100%;
+  color: $subtitle;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+  @include tablets {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+.skills__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+.skills__item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7px;
+  font-size: 22px;
+  padding: 8px 0px;
+  // text-shadow: 1px 5px 20px $subtitle, 0 0 1em $subtitle;
+  // box-shadow: -5px ​5px 9px 5px  rgba($subtitle, .3);
+  box-shadow: -5px 5px 9px 5px rgba($subtitle, .3);
+  border-radius: 5px;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid $subtitle;
+  border-right: 1px solid $subtitle;
+  @include tablets {
+    font-size: 18px;
+  }
+  @include phones {
+    font-size: 17px;
+    padding: 4px 0px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

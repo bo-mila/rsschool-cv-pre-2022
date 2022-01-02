@@ -1,0 +1,84 @@
+.footer {
+  display: flex;
+  padding: 30px 30px;
+  background-color: #252A32;
+  color: #F6F9FE;
+  font-family: 'Roboto';
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  @include phones {
+    flex-direction: column;
+    padding: 20px 5px;
+  }
+}
+.footer__git {
+  font-size: 18px;
+  font-weight: 400;
+  color: #eaaa5e;
+  width: 22%;
+  text-align: center;
+  line-height: 1.6;
+  @include phones {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.footer__git-ref {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  & h6 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1;
+    @include phones {
+      font-size: 10px;
+    }
+  }
+  & p {
+    font-size: 10px;
+    @include phones {
+      display: none;
+    }
+  }
+}
+.footer__git-img {
+  margin-right: 10px;
+  & svg {
+    width: 30px;
+    height: 30px;
+    fill: $orange;
+  }
+}
+.footer__info {
+  width: 40%;
+  font-size: 20px;
+  font-weight: 400;
+  @include tablets {
+    font-size: 18px;
+  }
+  @include phones {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+}
+.footer__course-ref {
+  color: bisque;
+}
+.footer__img {
+  width: 20%;
+  @include phones {
+    width: 44%;
+  }
+}
+.footer__pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
