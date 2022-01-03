@@ -2,11 +2,12 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  flex-grow: 1;
+  // flex-grow: 1;
   align-items: center;
   justify-content: flex-end;
   text-align: center;
   font-family: 'Roboto';
+  padding-top: 40px;
 }
 .language__title {
   width: 100%;

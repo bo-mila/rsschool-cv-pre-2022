@@ -10,6 +10,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="./assets/favicon/site.webmanifest">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,regular,500,600,700" rel="stylesheet" />
   <link rel="stylesheet" href="./css/style.css">
   <title>CV Mila Bozhevskaya</title>
 </head>
@@ -58,6 +59,18 @@
                 </a>
               </li>
               <li class="nav__item">
+                <a href="#language" class="nav__ref">
+                  <span>l</span>
+                  <span>a</span>
+                  <span>n</span>
+                  <span>g</span>
+                  <span>u</span>
+                  <span>a</span>
+                  <span>g</span>
+                  <span>e</span>
+                </a>
+              </li>
+              <li class="nav__item">
                 <a href="#courses" class="nav__ref">
                   <span>c</span>
                   <span>o</span>
@@ -77,6 +90,14 @@
                   <span>r</span>
                   <span>k</span>
                   <span>s</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#code" class="nav__ref nav__ref--code">
+                  <span>c</span>
+                  <span>o</span>
+                  <span>d</span>
+                  <span>e</span>
                 </a>
               </li>
             </ul>
@@ -191,7 +212,7 @@
                 <li class="skills__item">Adobe Photoshop, Figma</li>
               </ul>
             </section>
-            <section class="language">
+            <section id="language" class="language">
               <h3 class="language__title">Languages:</h3>
               <ul class="language__list">
                 <li class="language__item">Ukrainian - Native</li>
@@ -373,17 +394,25 @@
                 </li>
               </ul>
             </section>
-            <section class="code">
+            <section id="code" class="code">
               <h3 class="code__title subtitle">
                 Example of my code
               </h3>
               <p class="code__subtitle">How to win with one line of code :)</p>
               <div class="code__img">
-                <img src="./assets/img/code.jpg" alt="Example of my code">
+                <pre><code class="code__expample">
+<span class="cyan">function</span> <span class="yellow">updatePoints() {</span>
+  shapes.<span class="yellow">forEach</span><span class="green">(
+    (</span>shape<span class="green">)</span> =&gt; shape.points.<span class="yellow">forEach</span><span class="green">(
+      (</span>point<span class="green">)</span> =&gt; point.shape = shape
+    <span class="green">)
+  )</span>;
+  points.<span class="yellow">splice</span><span class="green">(</span>0, points.length, ...shapes.<span class="yellow">flatMap</span><span class="green">(
+    ({</span> points <span class="green">})</span> =&gt; points
+  <span class="green">))</span>;
+<span class="yellow">}</span></code>
+              </pre>
               </div>
-              <code>
-                
-              </code>
               <div class="code__info">
                 <h5>More examples:</h5>
                 <ul>
@@ -430,7 +459,7 @@
             </a>
           </div>
           <div class="footer__info">
-            Portfolio has been created <time class="footer__info-time">2021-09-09</time> within <a href="https://rs.school/js/" class="footer__course-ref" target="_blank">Course «JavaScript/Front-end»</a>
+            Portfolio has been created <time class="footer__info-time">2022-01-03</time> within <a href="https://rs.school/js/" class="footer__course-ref" target="_blank">Course «JavaScript/Front-end»</a>
           </div>
           <div class="footer__img">
             <img src="./assets/svg/rs_school_js.svg" alt="Logo of RS School" class="footer__pic">
