@@ -7,11 +7,13 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
+
   @include phones {
     flex-direction: column;
     padding: 20px 5px;
   }
 }
+
 .footer__git {
   font-size: 18px;
   font-weight: 400;
@@ -19,26 +21,33 @@
   width: 22%;
   text-align: center;
   line-height: 1.6;
+
   @include phones {
     width: 100%;
     margin-bottom: 10px;
   }
 }
+
 .footer__git-ref {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+
   & h6 {
     width: 100%;
     font-size: 20px;
     line-height: 1;
+
     @include phones {
       font-size: 10px;
+      margin-bottom: 10px;
     }
   }
+
   & p {
     font-size: 10px;
+
     @include phones {
       display: none;
     }
@@ -46,19 +55,28 @@
 }
 .footer__git-img {
   margin-right: 10px;
+
   & svg {
     width: 30px;
     height: 30px;
     fill: $orange;
   }
+
+  @include phones {
+    margin-right: 0;
+  }
 }
+
 .footer__info {
   width: 40%;
   font-size: 20px;
   font-weight: 400;
+
   @include tablets {
     font-size: 18px;
+    width: 50%;
   }
+
   @include phones {
     text-align: center;
     width: 100%;
@@ -67,15 +85,19 @@
     margin-bottom: 20px;
   }
 }
+
 .footer__course-ref {
   color: bisque;
 }
+
 .footer__img {
   width: 20%;
+
   @include phones {
     width: 44%;
   }
 }
+
 .footer__pic {
   display: block;
   width: 100%;

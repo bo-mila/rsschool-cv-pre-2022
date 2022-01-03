@@ -6,6 +6,7 @@
   align-items: center;
   min-height: 40px;
 }
+
 .subtitle--occ {
   color: $orange;
   -webkit-text-stroke-width: .8px;
@@ -13,15 +14,18 @@
   margin-bottom: 20px;
   font-size: 36px;
   letter-spacing: 2px;
+
   @include tablets {
     font-size: 31px;
     margin-bottom: 15px;
   }
+
   @include phones {
     font-size: 20px;
     margin-bottom: 0;
   }
 }
+
 .subtitle__img  {
   margin-right: 10px;
   transition: .3s;

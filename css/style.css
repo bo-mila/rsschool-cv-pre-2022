@@ -560,6 +560,12 @@ address {
     @media screen and (max-width: 1200px) {
       .nav__ref span {
         font-size: 23px; } }
+  @media screen and (max-width: 1200px) and (max-width: 991px) {
+    .nav__ref span {
+      font-size: 21px; } }
+    @media screen and (max-width: 768px) {
+      .nav__ref span {
+        font-size: 23px; } }
     .nav__ref span:nth-child(even) {
       z-index: 0; }
     .nav__ref span:nth-child(odd) {
@@ -623,7 +629,7 @@ address {
     .main__content {
       padding: 20px 14px 20px; } }
   @media screen and (max-width: 768px) {
-    .main__content h1, .main__content h2 {
+    .main__content h1, .main__content h3 {
       display: none; } }
 
 .avatar {
@@ -1377,7 +1383,8 @@ address {
     line-height: 1; }
     @media screen and (max-width: 768px) {
       .footer__git-ref h6 {
-        font-size: 10px; } }
+        font-size: 10px;
+        margin-bottom: 10px; } }
   .footer__git-ref p {
     font-size: 10px; }
     @media screen and (max-width: 768px) {
@@ -1390,6 +1397,9 @@ address {
     width: 30px;
     height: 30px;
     fill: #d6974a; }
+  @media screen and (max-width: 768px) {
+    .footer__git-img {
+      margin-right: 0; } }
 
 .footer__info {
   width: 40%;
@@ -1397,7 +1407,8 @@ address {
   font-weight: 400; }
   @media screen and (max-width: 1200px) {
     .footer__info {
-      font-size: 18px; } }
+      font-size: 18px;
+      width: 50%; } }
   @media screen and (max-width: 768px) {
     .footer__info {
       text-align: center;

@@ -33,7 +33,7 @@
   @include tablets {
     padding: 20px 14px 20px;
   }
-  & h1, h2 {
+  & h1, h3 {
     @include phones {
       display: none;
     }

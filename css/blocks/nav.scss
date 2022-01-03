@@ -101,9 +101,19 @@
   & span {
     font-size: 28px;
     font-weight: 500;
+
     @include tablets {
       font-size: 23px;
+
+      @media screen and (max-width: 991px) {
+        font-size: 21px;
+      }
     }
+
+    @include phones {
+      font-size: 23px;
+    }
+
     &:nth-child(even) {
       z-index: 0;
     }

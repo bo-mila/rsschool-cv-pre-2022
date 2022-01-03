@@ -21,15 +21,18 @@
   transition: .3s;
   display: flex;
   align-items: center;
+
   @include tablets {
     font-size: 26px;
   }
+
   &:nth-child(8) {
     margin-right: 8px;
   }
   &:nth-child(13) {
     margin-right: 8px;
   }
+
   &:hover {
     color: $orange;
     font-size: 28px;
