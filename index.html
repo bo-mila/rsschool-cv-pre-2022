@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code:300,regular,500,600,700" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CV Mila Bozhevskaya</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="maincontent">
+      <div class="container">
+        <header class="header">
+          <nav class="header__nav nav">
+            <label class="nav__hamburger-menu hamburger-menu">
+              <input type="checkbox" class="hamburger-menu__input">
+              <span class="hamburger-menu__bars"></span>
+            </label>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#contacts" class="nav__ref">
+                  <span>c</span>
+                  <span>o</span>
+                  <span>n</span>
+                  <span>t</span>
+                  <span>a</span>
+                  <span>c</span>
+                  <span>t</span>
+                  <span>s</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#aboutme" class="nav__ref nav__ref--aboutme">
+                  <span>a</span>
+                  <span>b</span>
+                  <span>o</span>
+                  <span>u</span>
+                  <span>t</span>
+                  <span>m</span>
+                  <span>e</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#skills" class="nav__ref">
+                  <span>s</span>
+                  <span>k</span>
+                  <span>i</span>
+                  <span>l</span>
+                  <span>l</span>
+                  <span>s</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#language" class="nav__ref">
+                  <span>l</span>
+                  <span>a</span>
+                  <span>n</span>
+                  <span>g</span>
+                  <span>u</span>
+                  <span>a</span>
+                  <span>g</span>
+                  <span>e</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#courses" class="nav__ref">
+                  <span>c</span>
+                  <span>o</span>
+                  <span>u</span>
+                  <span>r</span>
+                  <span>s</span>
+                  <span>e</span>
+                  <span>s</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#works" class="nav__ref nav__ref--myworks">
+                  <span>m</span>
+                  <span>y</span>
+                  <span>w</span>
+                  <span>o</span>
+                  <span>r</span>
+                  <span>k</span>
+                  <span>s</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#code" class="nav__ref nav__ref--code">
+                  <span>c</span>
+                  <span>o</span>
+                  <span>d</span>
+                  <span>e</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main class="main">
+          <aside class="main__asside">
+            <div class="avatar">
+              <img src="./assets/img/avatar.jpg" width = "400" alt="Photo of Mila Bozhevskaya" class="avatar__img">
+            </div>
+            <section class="name">
+              <h3 class="title">Mila Bozhevskaya</h3>
+              <h3 class="subtitle subtitle--occ">Frontend Developer</h3>
+            </section>
+            <section class="contacts" id="contacts">
+              <h2 class="section-title contacts__title">Contact information:</h2>
+              <ul class="contacts__list">
+                <li class="contacts__item tel">
+                  <div class="contacts__item-img">
+                    <svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.34875 1.55983L1.63317 2.7232C1.63317 2.7232 -1.08363 6.44354 4.73808 12.2846C4.73808 12.2967 4.75021 12.3088 4.76234 12.321C4.77446 12.3331 4.77446 12.3452 4.78659 12.3452C10.6447 18.1499 14.356 15.4475 14.356 15.4475L15.5325 14.7325C16.1996 14.2235 16.2723 13.242 15.678 12.6482L14.2833 11.2545C13.7981 10.7698 13.0219 10.7092 12.4761 11.1212L10.9964 12.0786C10.9964 12.0786 10.0019 12.6724 7.20018 9.88516C4.41061 7.08582 5.00491 6.09211 5.00491 6.09211L5.95093 4.60155C6.36331 4.05622 6.30266 3.28064 5.81752 2.79591L4.43486 1.40229C3.84056 0.808491 2.85815 0.881202 2.34875 1.55983Z" />
+                      </svg>
+                  </div>
+                  <h5 class="contacts__item-title tel__title">Phone</h5>
+                  <a class="contacts__item-ref tel__ref" href="tel:+380997303391" target="_blank">+38 099 730 33 91</a>
+                </li>
+                <li class="contacts__item email">
+                  <div class="contacts__item-img">
+                    <svg  viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M16.7065 1H1V11.5915H16.7065V1Z" />
+                      <path d="M10.0479 6.96225C9.36871 7.56817 8.34991 7.56817 7.67071 6.96225L4.92965 4.51433L1 1.01212H8.85931H16.7186L12.789 4.51433L10.0479 6.96225Z" />
+                      <path d="M10.8605 6.29573L12.789 8.01655L16.7065 11.5188H8.85931H1L4.92965 8.01655L6.8581 6.29573" />
+                    </svg>
+                  </div>
+                  <h5 class="contacts__item-title email__title">E-mail</h5>
+                  <a class="contacts__item-ref email__ref" href="mailto:mi.bozhev@gmail.com" target="_blank">mi.bozhev@gmail.com</a>
+                </li>
+                <li class="contacts__item telegram">
+                  <div class="contacts__item-img contacts__item-img--fill">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                      <g>
+                        <g>
+                          <g>
+                            <path d="M385.268,121.919l-210.569,129.69c-11.916,7.356-17.555,21.885-13.716,35.323l22.768,80
+                              c1.945,6.821,8.015,11.355,14.999,11.355c0.389,0,0.782-0.014,1.176-0.043c7.466-0.542,13.374-6.103,14.367-13.515l5.92-43.866
+                              c0.798-5.902,3.642-11.392,8.001-15.45l173.765-161.524c5.251-4.869,5.945-12.842,1.618-18.545
+                              C399.263,119.636,391.388,118.16,385.268,121.919z M214.32,290.478c-7.808,7.268-12.895,17.089-14.323,27.655l-2.871,21.278
+                              l-16.527-58.072c-1.343-4.704,0.635-9.791,4.805-12.365l154.258-95.007L214.32,290.478z"/>
+                            <path d="M503.67,37.382c-6.579-5.576-15.657-7.111-23.698-4.005L15.08,212.719C5.873,216.27-0.047,224.939,0,234.804
+                              c0.048,9.874,6.055,18.495,15.316,21.965l108.59,40.529l42.359,136.225c2.326,7.489,8.197,13.308,15.703,15.566
+                              c7.502,2.256,15.604,0.643,21.66-4.31l63.14-51.473c3.032-2.472,7.362-2.594,10.528-0.295l113.883,82.681
+                              c4.097,2.978,8.932,4.511,13.823,4.511c2.865,0,5.749-0.526,8.517-1.596c7.486-2.895,12.93-9.312,14.56-17.163l83.429-401.309
+                              C513.26,51.685,510.257,42.967,503.67,37.382z M491.536,55.99l-83.428,401.308c-0.302,1.45-1.346,2.053-1.942,2.284
+                              c-0.6,0.232-1.785,0.489-2.997-0.393l-113.887-82.685c-5.091-3.696-11.077-5.531-17.052-5.531
+                              c-6.518,0-13.027,2.185-18.347,6.519l-63.154,51.485c-1.124,0.92-2.291,0.756-2.885,0.577c-0.598-0.18-1.665-0.69-2.099-2.086
+                              l-43.845-141.006c-0.937-3.013-3.217-5.423-6.173-6.527L22.462,237.662c-1.696-0.635-2.057-1.958-2.062-2.957
+                              c-0.005-0.99,0.343-2.307,2.023-2.955L487.316,52.409c0.002-0.001,0.005-0.002,0.008-0.003c1.51-0.583,2.627,0.087,3.159,0.537
+                              C491.017,53.398,491.867,54.398,491.536,55.99z"/>
+                          </g>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M427.481,252.142c-5.506-1.196-10.936,2.299-12.131,7.804l-1.55,7.14c-1.195,5.505,2.299,10.936,7.804,12.131
+                            c0.729,0.158,1.456,0.234,2.174,0.234c4.695,0,8.92-3.262,9.958-8.037l1.55-7.14C436.48,258.769,432.985,253.338,427.481,252.142z
+                            "/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M417.281,299.122c-5.512-1.195-10.938,2.299-12.132,7.804l-23.459,108.051c-1.195,5.505,2.299,10.936,7.803,12.131
+                            c0.73,0.158,1.457,0.234,2.174,0.234c4.696,0,8.92-3.262,9.958-8.037l23.459-108.052
+                            C426.279,305.748,422.785,300.317,417.281,299.122z"/>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <h5 class="contacts__item-title telegram__title">Telegram</h5>
+                  <a href="https://t.me/milabozhevskaya" class="contacts__item-ref telegram__ref" target="_blank">@milabozhevskaya </a>
+                </li>
+                <li class="contacts__item discord">
+                  <div class="contacts__item-img">
+                    <svg width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 12.65625 4.90625 L 11.875 5 C 11.875 5 8.371094 5.382813 5.8125 7.4375 L 5.78125 7.4375 L 5.75 7.46875 C 5.175781 7.996094 4.925781 8.644531 4.53125 9.59375 C 4.136719 10.542969 3.714844 11.753906 3.34375 13.09375 C 2.601563 15.777344 2 19.027344 2 22 L 2 22.25 L 2.125 22.5 C 3.050781 24.125 4.695313 25.160156 6.21875 25.875 C 7.742188 26.589844 9.058594 26.96875 9.96875 27 L 10.5625 27.03125 L 10.875 26.5 L 11.96875 24.5625 C 13.128906 24.824219 14.464844 25 16 25 C 17.535156 25 18.871094 24.824219 20.03125 24.5625 L 21.125 26.5 L 21.4375 27.03125 L 22.03125 27 C 22.941406 26.96875 24.257813 26.589844 25.78125 25.875 C 27.304688 25.160156 28.949219 24.125 29.875 22.5 L 30 22.25 L 30 22 C 30 19.027344 29.398438 15.777344 28.65625 13.09375 C 28.285156 11.753906 27.863281 10.542969 27.46875 9.59375 C 27.074219 8.644531 26.824219 7.996094 26.25 7.46875 L 26.21875 7.4375 L 26.1875 7.4375 C 23.628906 5.382813 20.125 5 20.125 5 L 19.34375 4.90625 L 19.0625 5.625 C 19.0625 5.625 18.773438 6.355469 18.59375 7.1875 C 17.460938 7.035156 16.535156 7 16 7 C 15.464844 7 14.539063 7.035156 13.40625 7.1875 C 13.226563 6.355469 12.9375 5.625 12.9375 5.625 Z M 11.28125 7.1875 C 11.324219 7.328125 11.367188 7.449219 11.40625 7.5625 C 10.113281 7.882813 8.734375 8.371094 7.46875 9.15625 L 8.53125 10.84375 C 11.125 9.234375 14.851563 9 16 9 C 17.148438 9 20.875 9.234375 23.46875 10.84375 L 24.53125 9.15625 C 23.265625 8.371094 21.886719 7.882813 20.59375 7.5625 C 20.632813 7.449219 20.675781 7.328125 20.71875 7.1875 C 21.652344 7.375 23.433594 7.804688 24.90625 8.96875 C 24.898438 8.972656 25.28125 9.550781 25.625 10.375 C 25.976563 11.222656 26.367188 12.351563 26.71875 13.625 C 27.394531 16.066406 27.925781 19.039063 27.96875 21.65625 C 27.339844 22.617188 26.171875 23.484375 24.9375 24.0625 C 23.859375 24.566406 23.007813 24.75 22.5 24.84375 L 22 24 C 22.296875 23.890625 22.589844 23.769531 22.84375 23.65625 C 24.382813 22.980469 25.21875 22.25 25.21875 22.25 L 23.90625 20.75 C 23.90625 20.75 23.34375 21.265625 22.03125 21.84375 C 20.71875 22.421875 18.714844 23 16 23 C 13.285156 23 11.28125 22.421875 9.96875 21.84375 C 8.65625 21.265625 8.09375 20.75 8.09375 20.75 L 6.78125 22.25 C 6.78125 22.25 7.617188 22.980469 9.15625 23.65625 C 9.410156 23.769531 9.703125 23.890625 10 24 L 9.5 24.84375 C 8.992188 24.75 8.140625 24.566406 7.0625 24.0625 C 5.828125 23.484375 4.660156 22.617188 4.03125 21.65625 C 4.074219 19.039063 4.605469 16.066406 5.28125 13.625 C 5.632813 12.351563 6.023438 11.222656 6.375 10.375 C 6.71875 9.550781 7.101563 8.972656 7.09375 8.96875 C 8.566406 7.804688 10.347656 7.375 11.28125 7.1875 Z M 12.5 14 C 11.726563 14 11.042969 14.441406 10.625 15 C 10.207031 15.558594 10 16.246094 10 17 C 10 17.753906 10.207031 18.441406 10.625 19 C 11.042969 19.558594 11.726563 20 12.5 20 C 13.273438 20 13.957031 19.558594 14.375 19 C 14.792969 18.441406 15 17.753906 15 17 C 15 16.246094 14.792969 15.558594 14.375 15 C 13.957031 14.441406 13.273438 14 12.5 14 Z M 19.5 14 C 18.726563 14 18.042969 14.441406 17.625 15 C 17.207031 15.558594 17 16.246094 17 17 C 17 17.753906 17.207031 18.441406 17.625 19 C 18.042969 19.558594 18.726563 20 19.5 20 C 20.273438 20 20.957031 19.558594 21.375 19 C 21.792969 18.441406 22 17.753906 22 17 C 22 16.246094 21.792969 15.558594 21.375 15 C 20.957031 14.441406 20.273438 14 19.5 14 Z M 12.5 16 C 12.554688 16 12.625 16.019531 12.75 16.1875 C 12.875 16.355469 13 16.648438 13 17 C 13 17.351563 12.875 17.644531 12.75 17.8125 C 12.625 17.980469 12.554688 18 12.5 18 C 12.445313 18 12.375 17.980469 12.25 17.8125 C 12.125 17.644531 12 17.351563 12 17 C 12 16.648438 12.125 16.355469 12.25 16.1875 C 12.375 16.019531 12.445313 16 12.5 16 Z M 19.5 16 C 19.554688 16 19.625 16.019531 19.75 16.1875 C 19.875 16.355469 20 16.648438 20 17 C 20 17.351563 19.875 17.644531 19.75 17.8125 C 19.625 17.980469 19.554688 18 19.5 18 C 19.445313 18 19.375 17.980469 19.25 17.8125 C 19.125 17.644531 19 17.351563 19 17 C 19 16.648438 19.125 16.355469 19.25 16.1875 C 19.375 16.019531 19.445313 16 19.5 16 Z"/></svg>
+                  </div>
+                  <h5 class="contacts__item-title linkedin__title">Discord</h5>
+                  <a href="https://discord.gg/3ZBFpuJ9" class="contacts__item-ref linkedin__ref" target="_blank">Milamila (@bo-mila)</a>
+                </li>
+                <li class="contacts__item linkedin">
+                  <div class="contacts__item-img">
+                    <svg viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.27168 17.5295C13.84 17.5295 17.5434 13.8292 17.5434 9.26474C17.5434 4.70025 13.84 1 9.27168 1C4.70336 1 1 4.70025 1 9.26474C1 13.8292 4.70336 17.5295 9.27168 17.5295Z" />
+                      <path d="M9.27165 17.5295C10.9664 17.5295 12.3402 13.8292 12.3402 9.26474C12.3402 4.70025 10.9664 1 9.27165 1C7.57695 1 6.20312 4.70025 6.20312 9.26474C6.20312 13.8292 7.57695 17.5295 9.27165 17.5295Z" />
+                      <path d="M9.27168 4.99906C6.8581 4.99906 4.68708 4.4901 3.17101 3.69028C1.82474 5.15661 1 7.10767 1 9.25262C1 11.3976 1.82474 13.3486 3.17101 14.815C4.68708 14.0151 6.84597 13.5062 9.27168 13.5062C11.6974 13.5062 13.8563 14.0151 15.3723 14.815C16.7186 13.3486 17.5434 11.3976 17.5434 9.25262C17.5434 7.10767 16.7186 5.15661 15.3723 3.69028C13.8563 4.50222 11.6853 4.99906 9.27168 4.99906Z" />
+                      </svg>
+                  </div>
+                  <h5 class="contacts__item-title linkedin__title">LinkedIn</h5>
+                  <a href="https://www.linkedin.com/in/mila-bozhevskaya-63a27919a" class="contacts__item-ref linkedin__ref" target="_blank">mila-bozhevskaya</a>
+                </li>
+              </ul>
+            </section>
+            <section class="skills" id="skills">
+              <h2 class="section-title skills__title">Skills:</h2>
+              <ul class="skills__list">
+                <li class="skills__item">HTML5, CSS3</li>
+                <li class="skills__item">SASS/LESS, Bootstrap</li>
+                <li class="skills__item">Pug, Nunjucks</li>
+                <li class="skills__item">JavaScript(ES6), jQuery</li>
+                <li class="skills__item">TypeScript, Node.js</li>
+                <li class="skills__item">React, Redux</li>
+                <li class="skills__item">JSON, REST API</li>
+                <li class="skills__item">JWT, AJAX, Websockets</li>
+                <li class="skills__item">Canvas, Tree.js</li>
+                <li class="skills__item">Chart.js, amCharts</li>
+                <li class="skills__item">Vue.js, Vuex</li>
+                <li class="skills__item">Gulp, Webpack</li>
+                <li class="skills__item">Git, GitHub</li>
+                <li class="skills__item">VS Code, Postman</li>
+                <li class="skills__item">Jira</li>
+                <li class="skills__item">Adobe Photoshop, Figma</li>
+              </ul>
+            </section>
+            <section id="language" class="language">
+              <h2 class="section-title language__title">Languages:</h2>
+              <ul class="language__list">
+                <li class="language__item">Ukrainian - Native</li>
+                <li class="language__item">Russian - Native</li>
+                <li class="language__item">Polish - Basic</li>
+                <li class="language__item">English - Intermediate</li>
+              </ul>
+            </section>
+          </aside>
+          <div class="main__content">
+            <h1 class="title">Mila Bozhevskaya</h1>
+            <h3 class="subtitle subtitle--occ">Frontend Developer</h3>
+            <section class="myself" id="aboutme">
+              <h2 class="section-title myself__title subtitle">
+                <span class="subtitle__img subtitle__img--myself">
+                  <svg  viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.25 10.71C13.8126 10.71 15.89 8.63259 15.89 6.06999C15.89 3.50739 13.8126 1.42999 11.25 1.42999C8.68738 1.42999 6.60999 3.50739 6.60999 6.06999C6.60999 8.63259 8.68738 10.71 11.25 10.71Z"  stroke-miterlimit="10"/>
+                    <path d="M15.24 12.26C14.43 13.63 12.95 14.54 11.25 14.54C9.55 14.54 8.06 13.62 7.26 12.26C3.73 13.8 1.25 17.32 1.25 21.43H21.25C21.25 17.32 18.77 13.8 15.24 12.26Z" stroke-miterlimit="10"/>
+                  </svg>
+                </span>
+                <span>B</span>
+                <span>r</span>
+                <span>i</span>
+                <span>e</span>
+                <span>f</span>
+                <span>l</span>
+                <span>y</span> 
+                <span>A</span>
+                <span>b</span>
+                <span>o</span>
+                <span>u</span>
+                <span>t</span>
+                <span>M</span>
+                <span>y</span>
+                <span>s</span>
+                <span>e</span>
+                <span>l</span>
+                <span>f</span>
+                <span>:</span>
+              </h2>
+              <div class="myself__desc">
+                <p>
+                  I am a motivated Frontend developer. Overall I have 3 years of experience in creating user-friendly UIs and developing responsive designs. Well familiar with Front end technologies. I consider my self as a quick-learner and always study new technologies. Can prove myself as a responsible and sociable team member. Looking for a great, enthusiastic engineering team to work for that will provide me with challenging, interesting work that I can learn from and improve my skills
+                </p>
+              </div>
+            </section>
+            <section class="courses" id="courses">
+              <h2 class="section-title courses__title subtitle">
+                <span class="subtitle__img">
+                  <svg  viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.98 0.919992C6.53 1.44999 4.22 2.70999 2.16 2.11999L1.5 3.10999V15.85C3.66 16.48 6.06 15.64 9.72 15.39C13.55 15.13 14.87 16.48 14.87 16.48V14.83V3.73999V2.70999C14.87 2.70999 13.42 0.389992 9.98 0.919992Z"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.16003 14.22C4.21003 14.82 6.53003 13.56 9.97003 13.03C13.41 12.5 14.87 14.82 14.87 14.82V2.70999C14.87 2.70999 13.41 0.389992 9.97003 0.919992C6.53003 1.44999 4.22003 2.70999 2.16003 2.11999V14.22Z"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.77 0.919992C23.21 1.44999 25.53 2.70999 27.58 2.10999L28.24 3.09999V15.84C26.08 16.47 23.68 15.63 20.02 15.38C16.19 15.12 14.87 16.47 14.87 16.47V14.82V3.73999V2.70999C14.87 2.70999 16.33 0.389992 19.77 0.919992Z"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M27.59 14.22C25.54 14.82 23.22 13.56 19.78 13.03C16.34 12.5 14.88 14.82 14.88 14.82V2.70999C14.88 2.70999 16.34 0.389992 19.78 0.919992C23.22 1.44999 25.54 2.70999 27.59 2.10999V14.22Z"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M28.11 2.88998L29.38 2.90998V16.95L14.88 17.26L0.380005 16.95V2.90998L1.64 2.88998"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span>C</span>
+                <span>o</span>
+                <span>u</span>
+                <span>r</span>
+                <span>s</span>
+                <span>e</span>
+                <span>s</span>
+                <span>:</span>
+              </h2>
+              <ul class="courses__list">
+                <li class="courses__item">
+                  <h5 class="courses__name">Kherson National Technical University</h5>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">HTML, CSS and JS Tutorials on the w3schools (completed)</h5>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">Loftschool Basic Murcup</h5>
+                  <a href="https://loftschool.com/diploma/IM1564666083/en/pdf" class="courses__ref" target="_blank">Diploma</a>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">JavaScript Manual on learnjavascript.ru</h5>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">Hexlet JavaScript for beginner</h5>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">Loftschool Web Development for Beginners</h5>
+                  <a href="https://loftschool.com/diploma/PM1570104832/en/pdf" class="courses__ref" target="_blank">Diploma</a>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">Loftschool Vue.js Advanced web development</h5>
+                  <a href="https://loftschool.com/diploma/RY1573803341/en/pdf" class="courses__ref"  target="_blank">Diploma</a>
+                </li>
+                <li class="courses__item">
+                  <h5 class="courses__name">JS. HowProgrammingWorks. Examples for Software Engineering<br>and Programming Lectures (Timur Shemsedinov)</h5>
+                </li>
+              </ul>
+            </section>
+            <section class="works" id="works">
+              <h2 class="section-title works__title subtitle">
+                <span class="subtitle__img">
+                  <svg  viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24.7127 21.1437C24.7127 21.4162 24.4888 21.64 24.2161 21.64H0.856822C0.584183 21.64 0.360229 21.4162 0.360229 21.1437V5.1759C0.360229 4.90344 0.584183 4.67964 0.856822 4.67964H24.2064C24.479 4.67964 24.703 4.90344 24.703 5.1759V21.1437H24.7127Z"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M0.369995 11.1894H24.7127"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7.29309 4.67964V1.20584C7.29309 0.933382 7.51704 0.709579 7.78968 0.709579H17.2834C17.556 0.709579 17.7799 0.933382 17.7799 1.20584V4.67964"  stroke-width="0.75" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.48392 9.48653H8.41284V13.8263H9.48392V9.48653Z" fill="#53E4ED"/>
+                    <path d="M16.6602 9.48653H15.5891V13.8263H16.6602V9.48653Z" fill="#53E4ED"/>
+                  </svg>
+                </span>
+                <span>M</span>
+                <span>y</span>
+                <span>W</span>
+                <span>o</span>
+                <span>r</span>
+                <span>k</span>
+                <span>s</span>
+                <span>:</span>
+              </h2>
+              <ul class="works__list">
+                <li class="works__item">
+                  <div class="works__info">
+                    <h4 class="works__name">Jupiter project</h4>
+                    <a href="https://jupiter.mila-projects.com" class="works__ref" target="_blank">Welcome to see the work</a>
+                    <details class="works__details">
+                      <summary class="works__summary">See for details</summary>
+                      <p class="works__desc">Used HTML5, CSS3, Sass, JS, Canvas, Particles.js, Swiper.js, Gulp</p>
+                    </details>
+                  </div>
+                  <a href="https://jupiter.mila-projects.com" class="works__img" target="_blank">
+                    <img src="./assets/img/jupiter.jpg" alt="Jupiter project">
+                  </a>
+                </li>
+                <li class="works__item">
+                  <div class="works__info">
+                    <h4 class="works__name">Chocco Bars</h4>
+                    <a href="https://chocco.mila-projects.com" class="works__ref" target="_blank">Welcome to see the work</a>
+                    <details class="works__details">
+                      <summary class="works__summary">See for details</summary>
+                      <p class="works__desc">Used HTML5, CSS3, JS, Sass, Slick.js, Gulp, jQuery</p>
+                    </details>
+                  </div>
+                  <a href="https://github.com/bo-mila/projloft" class="works__img" target="_blank">
+                    <img src="./assets/img/chocco.png" alt="Chocco Bars">
+                  </a>
+                </li>
+                <li class="works__item">
+                  <div class="works__info">
+                    <h4 class="works__name">Editor for HTML code (Vue.js)</h4>
+                    <a href="https://htmleditor.mila-projects.com/" class="works__ref" target="_blank">Welcome to see the work</a>
+                    <details class="works__details">
+                      <summary class="works__summary">See for details</summary>
+                      <p class="works__desc">Used HTML5, CSS3, JS, Vue.js, Sass</p>
+                    </details>
+                  </div>
+                  <a href="https://htmleditor.mila-projects.com/" class="works__img" target="_blank">
+                    <img src="./assets/img/editorhtml.jpg" alt="HTML editor">
+                  </a>
+                </li>
+                <li class="works__item">
+                  <div class="works__info">
+                    <h4 class="works__name">Tree (Factorial Tree in canvas)</h4>
+                    <a href="https://bo-mila.github.io/tree/tree/" class="works__ref" target="_blank">Welcome to see the work</a>
+                    <details class="works__details">
+                      <summary class="works__summary">See for details</summary>
+                      <p class="works__desc">Used HTML, CSS3, JS, Canvas</p>
+                    </details>
+                  </div>
+                  <a href="https://bo-mila.github.io/tree/tree/" class="works__img" target="_blank">
+                    <img src="./assets/img/tree.jpg" alt="Tree in life">
+                  </a>
+                </li>
+                <li class="works__item">
+                  <div class="works__info">
+                    <h4 class="works__name">Burgers</h4>
+                    <a href="https://github.com/bo-mila/burgers" class="works__ref" target="_blank">Welcome to see the work</a>
+                    <details class="works__details">
+                      <summary class="works__summary">See for details</summary>
+                      <p class="works__desc">Used HTML, CSS3, JS, jQuery, Gulp</p>
+                    </details>
+                  </div>
+                  <a href="https://github.com/bo-mila/burgers" class="works__img" target="_blank">
+                    <img src="./assets/img/burgers.jpg" alt="Burgers">
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section id="code" class="code">
+              <h2 class="section-title code__title subtitle">
+                Example of my code
+              </h2>
+              <p class="code__subtitle">How to win with one line of code :)</p>
+              <div class="code__img">
+                <pre><code class="code__expample">
+<span class="cyan">function</span> <span class="yellow">updatePoints() {</span>
+  shapes.<span class="yellow">forEach</span><span class="green">(
+    (</span>shape<span class="green">)</span> =&gt; shape.points.<span class="yellow">forEach</span><span class="green">(
+      (</span>point<span class="green">)</span> =&gt; point.shape = shape
+    <span class="green">)
+  )</span>;
+  points.<span class="yellow">splice</span><span class="green">(</span>0, points.length, ...shapes.<span class="yellow">flatMap</span><span class="green">(
+    ({</span> points <span class="green">})</span> =&gt; points
+  <span class="green">))</span>;
+<span class="yellow">}</span></code>
+              </pre>
+              </div>
+              <div class="code__info">
+                <h5>More examples:</h5>
+                <ul>
+                  <li><a href="https://www.codewars.com/users/bo-mila" target="_blank">Codewars</a></li>
+                  <li><a href="https://codepen.io/l-mila" target="_blank">Codepen</a></li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="footer__git">
+            <a href="https://github.com/bo-mila" class="footer__git-ref" target="_blank">
+              <h6>Welcome to my GitHub</h6>
+              <div class="footer__git-img">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 438.549 438.549" 
+                xml:space="preserve">
+                  <g>
+                    <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+                    c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+                    c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+                    c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+                    c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+                    c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+                    c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+                    c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+                    c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+                    c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+                    c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+                    c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+                    c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+                    c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+                    c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+                    c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+                    c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+                    c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+                    c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+                    C438.536,184.851,428.728,148.168,409.132,114.573z"/>
+                  </g>
+                </svg>
+              </div>
+              <p>https://github.com/bo-mila</p>
+            </a>
+          </div>
+          <div class="footer__info">
+            Portfolio has been created <time class="footer__info-time">2022-01-03</time><br>within <a href="https://rs.school/js/" class="footer__course-ref" target="_blank">Course «JavaScript/Front-end»</a>
+          </div>
+          <a href="https://rs.school/js/" class="footer__img">
+            <img src="./assets/svg/rs_school_js.svg" alt="Logo of RS School" class="footer__pic">
+          </ф>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
