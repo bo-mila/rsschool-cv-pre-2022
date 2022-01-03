@@ -1,0 +1,75 @@
+.code {
+  display: flex;
+  flex-direction: column;
+}
+.code__title {
+  margin-bottom: 5px;
+}
+.code__subtitle {
+  margin-bottom: 10px;
+}
+.code__img {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #1e1e1e;
+  padding-left: 10px;
+  padding-right: 10px;
+  // font-size: 14px;
+  font-family: 'Fira Code', sans-serif;
+
+  pre {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.code__info {
+  & h5 {
+    font-size: 20px;
+    color: $orange;
+  }
+}
+
+.code__expample {
+  color: #adf;
+  width: 100%;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 18px;
+
+  .yellow {
+    color: rgb(240, 221, 116);
+  }
+
+  .green {
+    color: rgb(77, 175, 32);
+  }
+
+  .cyan {
+    color: #2b79dd;
+  }
+
+  @include tablets {
+    @media screen and (max-width: 991px) {
+      font-size: 14px;
+    }
+  }
+
+  @include phones {
+    font-size: 16px;
+
+    @media screen and (max-width: 578px) {
+      font-size: 13px;
+    }
+
+    @media screen and (max-width: 468px) {
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 375px) {
+      font-size: 8px;
+    }
+  }
+}
